@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+:root {
+    --black: #000000;
+    --blue: #1e8ece;
+    --white: #ffffff;
+    --gray: #c0c0c0;
+}
+
+body {
+    font-family: Oswald;
+    background-color: var(--gray);
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    background-color: var(--black);
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+#menu ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    display: inline;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: var(--white);
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#menu ul li a:hover {
+    background-color: var(--blue);
+}
+
+#bottonFixed {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--gray);
+    border-radius: 20px;
+    padding: 1px;
+    border-color: var(--black);
+}
+
+#perfil{
+    max-width: 500px;
+    max-height: 450px;   
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
+#first h1 {
+    text-align: center;
+    height: 100px;
+}
+
+#git, #linkedin {
+    max-width: 70px;
+    max-height: 60px;
+}
