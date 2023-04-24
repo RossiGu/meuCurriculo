@@ -10,7 +10,7 @@
 body {
     font-family: Oswald;
     background-color: var(--gray);
-    text-align: center;
+    vertical-align: initial;
 }
 
 * {
@@ -73,6 +73,7 @@ body {
     text-align: center;
     height: 50px;
     font-size: 35px;
+    margin-top: 25px;
 }
 
 #git, #linkedin {
@@ -80,7 +81,70 @@ body {
     max-height: 60px;
 }
 
+#aboutme h1{
+    background-color: var(--black);
+    color: var(--blue);
+    padding-left: 350px;
+    margin-top: 200px;
+    margin-bottom: 25px;
+}
+
 #aboutme p{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 350px;
+    padding-right: 500px;
+    font-size: 20px;
+}
+
+#formation h1{
+    background-color: var(--black);
+    color: var(--blue);
+    padding-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#formation p{
+    padding-left: 350px;
+    padding-right: 500px;
+    font-size: 20px;
+}
+
+#formation h2{
+    padding-left: 350px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#performance h1{
+    background-color: var(--black);
+    color: var(--blue);
+    padding-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#performance p{
+    padding-left: 350px;
+    padding-right: 500px;
+    font-size: 20px;
+}
+
+#skills h1{
+    background-color: var(--black);
+    color: var(--blue);
+    padding-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#skills p{
+    padding-left: 350px;
+    padding-right: 500px;
+    font-size: 20px;
+}
+
+#skills h2{
+    padding-left: 350px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
