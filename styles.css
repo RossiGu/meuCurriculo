@@ -82,8 +82,6 @@ body {
 }
 
 #aboutme h1{
-    background-color: var(--black);
-    color: var(--blue);
     padding-left: 350px;
     margin-top: 200px;
     margin-bottom: 25px;
@@ -96,8 +94,6 @@ body {
 }
 
 #formation h1{
-    background-color: var(--black);
-    color: var(--blue);
     padding-left: 350px;
     margin-top: 50px;
     margin-bottom: 25px;
@@ -116,8 +112,6 @@ body {
 }
 
 #performance h1{
-    background-color: var(--black);
-    color: var(--blue);
     padding-left: 350px;
     margin-top: 50px;
     margin-bottom: 25px;
@@ -130,8 +124,6 @@ body {
 }
 
 #skills h1{
-    background-color: var(--black);
-    color: var(--blue);
     padding-left: 350px;
     margin-top: 50px;
     margin-bottom: 25px;
